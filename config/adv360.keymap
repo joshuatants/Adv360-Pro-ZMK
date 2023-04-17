@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-                         &kp ESC            &kp N1     &kp N2      &kp N3     &kp N4  &kp N5                    &tog 1                                                                 &mo 3  &kp N6  &kp N7    &kp N8    &kp N9    &kp N0                      &kp BACKSLASH
+                         &kp ESC            &kp N1     &kp N2      &kp N3     &kp N4  &kp N5                    &tog 2                                                                 &mo 3  &kp N6  &kp N7    &kp N8    &kp N9    &kp N0                      &kp BACKSLASH
                         &kp CAPS  &kp SINGLE_QUOTE  &kp COMMA  &kp PERIOD      &kp P   &kp Y                     &none                                                             &kp LC(C)   &kp F   &kp G     &kp C     &kp R     &kp L                          &kp SLASH
                          &kp TAB             &kp A      &kp O       &kp E      &kp U   &kp I            &macro_alt_tab  &kp LCTRL  &kp LALT   &none   &none   &kp LGUI  &kp RCTRL  &kp LC(V)   &kp D   &kp H     &kp T     &kp N     &kp S                          &kp MINUS
  &mt LEFT_SHIFT LEFT_PARENTHESIS     &kp SEMICOLON      &kp Q       &kp J      &kp K   &kp X                     &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   &kp B   &kp M     &kp W     &kp V     &kp Z  &mt RIGHT_SHIFT RIGHT_PARENTHESIS
-                           &mo 2         &kp EQUAL  &kp GRAVE    &kp LEFT  &kp RIGHT                          &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT                              &mo 2
+               &kp RA(BACKSPACE)         &kp EQUAL  &kp GRAVE    &kp LEFT  &kp RIGHT                          &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT                              &mo 2
             >;
         };
 
